@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8945464A1EEDE57200EF7E4D /* oven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894546491EEDE57200EF7E4D /* oven.swift */; };
+		8946B4511DD86589001329D7 /* userSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946B4501DD86589001329D7 /* userSettingsViewController.swift */; };
+		8946B4531DD86F14001329D7 /* recipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8946B4521DD86F14001329D7 /* recipeDetailsViewController.swift */; };
+		89591FA41E6FE57800B1DF19 /* addRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89591FA31E6FE57800B1DF19 /* addRecipeViewController.swift */; };
+		89898BAA1EF5F582005E5DA9 /* newCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89898BA91EF5F582005E5DA9 /* newCommentTableViewCell.swift */; };
+		89898BAC1EF5F812005E5DA9 /* facebookHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89898BAB1EF5F812005E5DA9 /* facebookHandler.swift */; };
+		89898BAE1EF70D70005E5DA9 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89898BAD1EF70D70005E5DA9 /* Comments.swift */; };
+		899895D71DD3125900406403 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 899895D61DD3125900406403 /* libz.tbd */; };
+		899895D91DD3127300406403 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 899895D81DD3127300406403 /* libsqlite3.tbd */; };
+		899895E81DD3171700406403 /* AWSMobileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899895E21DD3171700406403 /* AWSMobileClient.swift */; };
+		899895E91DD3171700406403 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899895E31DD3171700406403 /* AWSMobileHubHelper.framework */; };
+		899895EA1DD3171700406403 /* Ovens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899895E61DD3171700406403 /* Ovens.swift */; };
+		899895EB1DD3171700406403 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899895E71DD3171700406403 /* Recipe.swift */; };
+		899895ED1DD3173900406403 /* Sdk in Resources */ = {isa = PBXBuildFile; fileRef = 899895EC1DD3173900406403 /* Sdk */; };
+		899895EF1DD317A100406403 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899895EE1DD317A100406403 /* AWSCore.framework */; };
+		899895F01DD317A100406403 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899895EE1DD317A100406403 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		899895F21DD317AF00406403 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899895F11DD317AF00406403 /* AWSDynamoDB.framework */; };
+		899895F31DD317AF00406403 /* AWSDynamoDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899895F11DD317AF00406403 /* AWSDynamoDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		899895F51DD317BF00406403 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899895F41DD317BF00406403 /* AWSS3.framework */; };
+		899895F61DD317BF00406403 /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 899895F41DD317BF00406403 /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		899895F91DD31D0A00406403 /* recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899895F81DD31D0A00406403 /* recipe.swift */; };
+		899895FB1DD364A400406403 /* recipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899895FA1DD364A400406403 /* recipeCollectionViewCell.swift */; };
+		89B7533A1EE747F900184F4B /* newIngredientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B753391EE747F900184F4B /* newIngredientTableViewCell.swift */; };
+		89D722671EA307E500831D35 /* newStepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D722661EA307E500831D35 /* newStepTableViewCell.swift */; };
+		89DFE8331EF1CA6E001C475A /* ovenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFE8321EF1CA6E001C475A /* ovenCollectionViewCell.swift */; };
+		89DFE8351EF25EBF001C475A /* ovenDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DFE8341EF25EBF001C475A /* ovenDetailsViewController.swift */; };
+		89ED791E1DD2F9750090F375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED791D1DD2F9750090F375 /* AppDelegate.swift */; };
+		89ED79201DD2F9750090F375 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED791F1DD2F9750090F375 /* loginViewController.swift */; };
+		89ED79231DD2F9750090F375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89ED79211DD2F9750090F375 /* Main.storyboard */; };
+		89ED79251DD2F9750090F375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89ED79241DD2F9750090F375 /* Assets.xcassets */; };
+		89ED79281DD2F9750090F375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89ED79261DD2F9750090F375 /* LaunchScreen.storyboard */; };
+		89ED79301DD2FA900090F375 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED792F1DD2FA900090F375 /* homeViewController.swift */; };
+		89ED79321DD2FB6D0090F375 /* DBQueryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED79311DD2FB6D0090F375 /* DBQueryHandler.swift */; };
+		89ED79341DD2FB7F0090F375 /* imageDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ED79331DD2FB7F0090F375 /* imageDownloadHandler.swift */; };
+		89EEDC3F1ED0E0C20086F3C1 /* addOvenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EEDC3E1ED0E0C20086F3C1 /* addOvenViewController.swift */; };
+		E9A16FF8A5C045AE7DE8942F /* Pods_solarRecipes2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B46F42BFD8097C8544D5A2 /* Pods_solarRecipes2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		899895DC1DD314F600406403 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				899895F31DD317AF00406403 /* AWSDynamoDB.framework in Embed Frameworks */,
+				899895F01DD317A100406403 /* AWSCore.framework in Embed Frameworks */,
+				899895F61DD317BF00406403 /* AWSS3.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02F0DD80BDC33EC80C47A8E9 /* Pods-solarRecipes2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solarRecipes2.release.xcconfig"; path = "Pods/Target Support Files/Pods-solarRecipes2/Pods-solarRecipes2.release.xcconfig"; sourceTree = "<group>"; };
+		894546491EEDE57200EF7E4D /* oven.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oven.swift; sourceTree = "<group>"; };
+		8946B4501DD86589001329D7 /* userSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userSettingsViewController.swift; sourceTree = "<group>"; };
+		8946B4521DD86F14001329D7 /* recipeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeDetailsViewController.swift; sourceTree = "<group>"; };
+		89591FA31E6FE57800B1DF19 /* addRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addRecipeViewController.swift; sourceTree = "<group>"; };
+		89898BA91EF5F582005E5DA9 /* newCommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newCommentTableViewCell.swift; sourceTree = "<group>"; };
+		89898BAB1EF5F812005E5DA9 /* facebookHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facebookHandler.swift; sourceTree = "<group>"; };
+		89898BAD1EF70D70005E5DA9 /* Comments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		899895D61DD3125900406403 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		899895D81DD3127300406403 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		899895E21DD3171700406403 /* AWSMobileClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AWSMobileClient.swift; sourceTree = "<group>"; };
+		899895E31DD3171700406403 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		899895E61DD3171700406403 /* Ovens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ovens.swift; sourceTree = "<group>"; };
+		899895E71DD3171700406403 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		899895EC1DD3173900406403 /* Sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sdk; sourceTree = "<group>"; };
+		899895EE1DD317A100406403 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = Sdk/Aws/AWSCore.framework; sourceTree = "<group>"; };
+		899895F11DD317AF00406403 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = Sdk/Aws/AWSDynamoDB.framework; sourceTree = "<group>"; };
+		899895F41DD317BF00406403 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Sdk/Aws/AWSS3.framework; sourceTree = "<group>"; };
+		899895F81DD31D0A00406403 /* recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipe.swift; sourceTree = "<group>"; };
+		899895FA1DD364A400406403 /* recipeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = recipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		89B753391EE747F900184F4B /* newIngredientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newIngredientTableViewCell.swift; sourceTree = "<group>"; };
+		89D722661EA307E500831D35 /* newStepTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newStepTableViewCell.swift; sourceTree = "<group>"; };
+		89DFE8321EF1CA6E001C475A /* ovenCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ovenCollectionViewCell.swift; sourceTree = "<group>"; };
+		89DFE8341EF25EBF001C475A /* ovenDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ovenDetailsViewController.swift; sourceTree = "<group>"; };
+		89ED791A1DD2F9750090F375 /* solarRecipes4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solarRecipes4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89ED791D1DD2F9750090F375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89ED791F1DD2F9750090F375 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		89ED79221DD2F9750090F375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89ED79241DD2F9750090F375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89ED79271DD2F9750090F375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89ED79291DD2F9750090F375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89ED792F1DD2FA900090F375 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		89ED79311DD2FB6D0090F375 /* DBQueryHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBQueryHandler.swift; sourceTree = "<group>"; };
+		89ED79331DD2FB7F0090F375 /* imageDownloadHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageDownloadHandler.swift; sourceTree = "<group>"; };
+		89EEDC3E1ED0E0C20086F3C1 /* addOvenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addOvenViewController.swift; sourceTree = "<group>"; };
+		A9B46F42BFD8097C8544D5A2 /* Pods_solarRecipes2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_solarRecipes2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155530D454D64E5CDB158CE /* Pods-solarRecipes2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solarRecipes2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-solarRecipes2/Pods-solarRecipes2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89ED79171DD2F9750090F375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899895D91DD3127300406403 /* libsqlite3.tbd in Frameworks */,
+				899895EF1DD317A100406403 /* AWSCore.framework in Frameworks */,
+				899895D71DD3125900406403 /* libz.tbd in Frameworks */,
+				899895F51DD317BF00406403 /* AWSS3.framework in Frameworks */,
+				899895E91DD3171700406403 /* AWSMobileHubHelper.framework in Frameworks */,
+				899895F21DD317AF00406403 /* AWSDynamoDB.framework in Frameworks */,
+				E9A16FF8A5C045AE7DE8942F /* Pods_solarRecipes2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20260B5F885BB233C9E3C5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				899895D81DD3127300406403 /* libsqlite3.tbd */,
+				899895D61DD3125900406403 /* libz.tbd */,
+				A9B46F42BFD8097C8544D5A2 /* Pods_solarRecipes2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899895E11DD3171700406403 /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				899895E21DD3171700406403 /* AWSMobileClient.swift */,
+				899895E31DD3171700406403 /* AWSMobileHubHelper.framework */,
+				899895E41DD3171700406403 /* Models */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		899895E41DD3171700406403 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				899895E51DD3171700406403 /* NoSQL */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		899895E51DD3171700406403 /* NoSQL */ = {
+			isa = PBXGroup;
+			children = (
+				899895E61DD3171700406403 /* Ovens.swift */,
+				899895E71DD3171700406403 /* Recipe.swift */,
+				89898BAD1EF70D70005E5DA9 /* Comments.swift */,
+			);
+			path = NoSQL;
+			sourceTree = "<group>";
+		};
+		89ED79111DD2F9750090F375 = {
+			isa = PBXGroup;
+			children = (
+				899895F41DD317BF00406403 /* AWSS3.framework */,
+				899895F11DD317AF00406403 /* AWSDynamoDB.framework */,
+				899895EE1DD317A100406403 /* AWSCore.framework */,
+				899895EC1DD3173900406403 /* Sdk */,
+				899895E11DD3171700406403 /* AmazonAws */,
+				89ED791C1DD2F9750090F375 /* solarRecipes4 */,
+				89ED791B1DD2F9750090F375 /* Products */,
+				E4F6995398D6FBD76E52C03E /* Pods */,
+				20260B5F885BB233C9E3C5D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89ED791B1DD2F9750090F375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89ED791A1DD2F9750090F375 /* solarRecipes4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89ED791C1DD2F9750090F375 /* solarRecipes4 */ = {
+			isa = PBXGroup;
+			children = (
+				89ED791D1DD2F9750090F375 /* AppDelegate.swift */,
+				89ED791F1DD2F9750090F375 /* loginViewController.swift */,
+				89ED79211DD2F9750090F375 /* Main.storyboard */,
+				89898BA91EF5F582005E5DA9 /* newCommentTableViewCell.swift */,
+				89DFE8341EF25EBF001C475A /* ovenDetailsViewController.swift */,
+				89B753391EE747F900184F4B /* newIngredientTableViewCell.swift */,
+				89EEDC3E1ED0E0C20086F3C1 /* addOvenViewController.swift */,
+				89D722661EA307E500831D35 /* newStepTableViewCell.swift */,
+				89591FA31E6FE57800B1DF19 /* addRecipeViewController.swift */,
+				8946B4521DD86F14001329D7 /* recipeDetailsViewController.swift */,
+				89ED79311DD2FB6D0090F375 /* DBQueryHandler.swift */,
+				89ED79331DD2FB7F0090F375 /* imageDownloadHandler.swift */,
+				89ED792F1DD2FA900090F375 /* homeViewController.swift */,
+				89898BAB1EF5F812005E5DA9 /* facebookHandler.swift */,
+				899895FA1DD364A400406403 /* recipeCollectionViewCell.swift */,
+				89DFE8321EF1CA6E001C475A /* ovenCollectionViewCell.swift */,
+				8946B4501DD86589001329D7 /* userSettingsViewController.swift */,
+				899895F81DD31D0A00406403 /* recipe.swift */,
+				894546491EEDE57200EF7E4D /* oven.swift */,
+				89ED79241DD2F9750090F375 /* Assets.xcassets */,
+				89ED79261DD2F9750090F375 /* LaunchScreen.storyboard */,
+				89ED79291DD2F9750090F375 /* Info.plist */,
+			);
+			path = solarRecipes4;
+			sourceTree = "<group>";
+		};
+		E4F6995398D6FBD76E52C03E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E155530D454D64E5CDB158CE /* Pods-solarRecipes2.debug.xcconfig */,
+				02F0DD80BDC33EC80C47A8E9 /* Pods-solarRecipes2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89ED79191DD2F9750090F375 /* solarRecipes4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89ED792C1DD2F9750090F375 /* Build configuration list for PBXNativeTarget "solarRecipes4" */;
+			buildPhases = (
+				5EA907603E39652B3ED840F0 /* [CP] Check Pods Manifest.lock */,
+				89ED79161DD2F9750090F375 /* Sources */,
+				89ED79171DD2F9750090F375 /* Frameworks */,
+				89ED79181DD2F9750090F375 /* Resources */,
+				2CA96DD397257ABA4E04F3E6 /* [CP] Embed Pods Frameworks */,
+				5CB37E8A5C8AA3CB35065220 /* [CP] Copy Pods Resources */,
+				899895DC1DD314F600406403 /* Embed Frameworks */,
+				899895F71DD319AC00406403 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = solarRecipes4;
+			productName = solarRecipes2;
+			productReference = 89ED791A1DD2F9750090F375 /* solarRecipes4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89ED79121DD2F9750090F375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ahmed Moussa";
+				TargetAttributes = {
+					89ED79191DD2F9750090F375 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C39656PGLG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89ED79151DD2F9750090F375 /* Build configuration list for PBXProject "solarRecipes4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89ED79111DD2F9750090F375;
+			productRefGroup = 89ED791B1DD2F9750090F375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89ED79191DD2F9750090F375 /* solarRecipes4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89ED79181DD2F9750090F375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ED79281DD2F9750090F375 /* LaunchScreen.storyboard in Resources */,
+				899895ED1DD3173900406403 /* Sdk in Resources */,
+				89ED79251DD2F9750090F375 /* Assets.xcassets in Resources */,
+				89ED79231DD2F9750090F375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CA96DD397257ABA4E04F3E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-solarRecipes2/Pods-solarRecipes2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CB37E8A5C8AA3CB35065220 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-solarRecipes2/Pods-solarRecipes2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EA907603E39652B3ED840F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		899895F71DD319AC00406403 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework/strip-frameworks.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89ED79161DD2F9750090F375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899895EA1DD3171700406403 /* Ovens.swift in Sources */,
+				8946B4511DD86589001329D7 /* userSettingsViewController.swift in Sources */,
+				89B7533A1EE747F900184F4B /* newIngredientTableViewCell.swift in Sources */,
+				89591FA41E6FE57800B1DF19 /* addRecipeViewController.swift in Sources */,
+				89ED79201DD2F9750090F375 /* loginViewController.swift in Sources */,
+				89ED79321DD2FB6D0090F375 /* DBQueryHandler.swift in Sources */,
+				89EEDC3F1ED0E0C20086F3C1 /* addOvenViewController.swift in Sources */,
+				899895F91DD31D0A00406403 /* recipe.swift in Sources */,
+				89D722671EA307E500831D35 /* newStepTableViewCell.swift in Sources */,
+				899895FB1DD364A400406403 /* recipeCollectionViewCell.swift in Sources */,
+				89898BAC1EF5F812005E5DA9 /* facebookHandler.swift in Sources */,
+				899895E81DD3171700406403 /* AWSMobileClient.swift in Sources */,
+				8946B4531DD86F14001329D7 /* recipeDetailsViewController.swift in Sources */,
+				89898BAA1EF5F582005E5DA9 /* newCommentTableViewCell.swift in Sources */,
+				89DFE8331EF1CA6E001C475A /* ovenCollectionViewCell.swift in Sources */,
+				89898BAE1EF70D70005E5DA9 /* Comments.swift in Sources */,
+				8945464A1EEDE57200EF7E4D /* oven.swift in Sources */,
+				89DFE8351EF25EBF001C475A /* ovenDetailsViewController.swift in Sources */,
+				89ED79341DD2FB7F0090F375 /* imageDownloadHandler.swift in Sources */,
+				89ED79301DD2FA900090F375 /* homeViewController.swift in Sources */,
+				89ED791E1DD2F9750090F375 /* AppDelegate.swift in Sources */,
+				899895EB1DD3171700406403 /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89ED79211DD2F9750090F375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89ED79221DD2F9750090F375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89ED79261DD2F9750090F375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89ED79271DD2F9750090F375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89ED792A1DD2F9750090F375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89ED792B1DD2F9750090F375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89ED792D1DD2F9750090F375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E155530D454D64E5CDB158CE /* Pods-solarRecipes2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C39656PGLG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aws",
+					"$(PROJECT_DIR)/Aws/AmazonAws",
+					"$(PROJECT_DIR)/AmazonAws",
+					"$(PROJECT_DIR)/Sdk/Aws",
+				);
+				INFOPLIST_FILE = solarRecipes4/info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anagamedfash5.solarRecipes4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89ED792E1DD2F9750090F375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02F0DD80BDC33EC80C47A8E9 /* Pods-solarRecipes2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C39656PGLG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Aws",
+					"$(PROJECT_DIR)/Aws/AmazonAws",
+					"$(PROJECT_DIR)/AmazonAws",
+					"$(PROJECT_DIR)/Sdk/Aws",
+				);
+				INFOPLIST_FILE = solarRecipes4/info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anagamedfash5.solarRecipes4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89ED79151DD2F9750090F375 /* Build configuration list for PBXProject "solarRecipes4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ED792A1DD2F9750090F375 /* Debug */,
+				89ED792B1DD2F9750090F375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89ED792C1DD2F9750090F375 /* Build configuration list for PBXNativeTarget "solarRecipes4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ED792D1DD2F9750090F375 /* Debug */,
+				89ED792E1DD2F9750090F375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89ED79121DD2F9750090F375 /* Project object */;
+}
